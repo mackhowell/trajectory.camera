@@ -6,40 +6,52 @@
     <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:500italic' rel='stylesheet' type='text/css'>
     
     <style>
-/*        @font-face {
-            font-family: "Baron";
-            src:
-            local('Baron Neue Italic 50'),
-            local('BaronNeue-Italic'),
-        }*/
+
         body{
             font-family:'Alegreya Sans SC', sans-serif;
             width:960px;
             padding:100px 0;
             margin:0 auto;
-            /*font-family: Calibri, sans-serif; */
+            background: linear-gradient(white, black);
+            background-size: cover;
         }
+
+        #logo{
+            display:block;
+            z-index: -999;
+            width: 500;
+            margin-left: auto ;
+            margin-right: auto ;
+        }
+
         #nav{
+            background-color: #18fcff;
             list-style:none;
             margin:0;
             padding:0;
             text-align:left;
         }
+
         #nav li{
             display:inline;
         }
+
         #nav a{
             display:inline-block;
             padding:10px;
         }
+
         a{
+            display:inline-block;
             color:#c00;
             text-decoration:none;
             font-weight:bold;
         }
+
         a:hover{
             text-decoration:underline;
         }
+
     </style>
     
 
@@ -47,11 +59,15 @@
 <!--     <div id="container">
         <header id="main-header" class="header tencol" role="banner">
             <div id="inner-header" class="wrap clearfix"> -->
+        
+        <div id="logo">
+            <a href="http://www.trajectory.camera" target="_blank">
+            <img src="/static/trajectory-logo-medium-black.png" width="500" />
+            </a>
+        </div>
 
-                    <a href="http://www.trajectory.camera" target="_blank">
-                    <img src="/static/trajectory-logo-medium-black.png" alt="Photo of Milford Sound in New Zealand!" width="300" />
-                    </a>
-                <!-- </p> -->
+        <!-- <img class="logo" src="/static/trajectory-logo-medium-black.png" width="300"> -->
+
                 <ul id="nav">
                     <li><a href="/about/">ABOUT</a></li>    
                     <li><a href="/test/">TEST</a></li>

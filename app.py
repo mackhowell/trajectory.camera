@@ -7,7 +7,7 @@ app = Flask(__name__)   # create our flask app
 def index():
     # message = 'Hello World'
     # return render_template('index.html', message=message)
-    return render_template('index.html')
+    return render_template('newindex.html')
 
 
 # # this is the 2nd route - can be access with /page2
