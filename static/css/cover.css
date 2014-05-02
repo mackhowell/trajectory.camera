@@ -27,7 +27,12 @@ a:hover {
 html,
 body {
   height: 100%;
-  /*---light green = 00d6ce ---*/
+  /*--- light turquoise = 00d6ce ---*/
+  /*--- med turquoise = #019fa5 ---*/
+  /*--- dark turquoise = 001e1d ---*/
+  /*--- light orange = ffb178 ---*/
+  /*--- bright pink/red = ff006c ---*/
+
   background-color: #001e1d;
   background-image: url('');
 }
