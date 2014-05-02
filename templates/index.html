@@ -1,13 +1,71 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
     <title>Trajectory.camera</title>
+    <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:500italic' rel='stylesheet' type='text/css'>
+    
+    <style>
+/*        @font-face {
+            font-family: "Baron";
+            src:
+            local('Baron Neue Italic 50'),
+            local('BaronNeue-Italic'),
+        }*/
+        body{
+            font-family:'Alegreya Sans SC', sans-serif;
+            width:960px;
+            padding:100px 0;
+            margin:0 auto;
+            /*font-family: Calibri, sans-serif; */
+        }
+        #nav{
+            list-style:none;
+            margin:0;
+            padding:0;
+            text-align:left;
+        }
+        #nav li{
+            display:inline;
+        }
+        #nav a{
+            display:inline-block;
+            padding:10px;
+        }
+        a{
+            color:#c00;
+            text-decoration:none;
+            font-weight:bold;
+        }
+        a:hover{
+            text-decoration:underline;
+        }
+    </style>
+    
+
     <body>
+<!--     <div id="container">
+        <header id="main-header" class="header tencol" role="banner">
+            <div id="inner-header" class="wrap clearfix"> -->
+
+                    <a href="http://www.trajectory.camera" target="_blank">
+                    <img src="/static/trajectory-logo-medium-black.png" alt="Photo of Milford Sound in New Zealand!" width="300" />
+                    </a>
+                <!-- </p> -->
+                <ul id="nav">
+                    <li><a href="/about/">ABOUT</a></li>    
+                    <li><a href="/test/">TEST</a></li>
+                    <li><a href="/test/">TESTER</a></li>
+                </ul>
+
+
         <!-- <h1>{{ message }}</h1> -->
-        <h3> TRAJECTORY </h3>
-    	<a href='http://www.google.com'>Visit page #2</a><br>
+
     	<object width="320" height="240">
     		<param name="movie" value="http://fpdownload.adobe.com/strobe/FlashMediaPlayback.swf"></param>
     		<param name="flashvars" value="src=rtmp%3A%2F%2F172.31.99.235%3A1935%3A1935%2Flive%2Ftest&streamType=live"></param>
-    		<param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param>
+    		<param name="allowFullScreen" value="true"></param>
+            <param name="allowscriptaccess" value="always"></param>
     		<embed src="http://fpdownload.adobe.com/strobe/FlashMediaPlayback.swf"
     		type="application/x-shockwave-flash"
     		allowscriptaccess="always"
@@ -17,5 +75,6 @@
     		flashvars="src=rtmp%3A%2F%2F172.31.99.235%3A1935%3A1935%2Flive%2Ftest&streamType=live">
     		</embed>
     	</object>
+    
     </body>
 </html>
