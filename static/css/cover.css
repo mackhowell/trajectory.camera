@@ -33,7 +33,7 @@ body {
   /*--- light orange = ffb178 ---*/
   /*--- bright pink/red = ff006c ---*/
 
-  background-color: #001e1d;
+  background-color: #019fa5;
   background-image: url('');
 }
 body {
@@ -71,6 +71,11 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+/*.phone-brand {
+  position: relative;
+  margin-top: -100px;
+}*/
 
 .masthead-nav > li {
   display: inline-block;
