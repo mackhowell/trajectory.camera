@@ -9,6 +9,9 @@ def index():
     # return render_template('index.html', message=message)
     return render_template('newindex.html')
 
+@app.route("/live.swf")
+def proxy():
+	return app.send_static_file('/live.swf')
 
 # # this is the 2nd route - can be access with /page2
 # @app.route("/page2")
